@@ -39,4 +39,4 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/reaction-rumble.git
+   git clone https://github.com/om-baji/reaction-rumble.git
