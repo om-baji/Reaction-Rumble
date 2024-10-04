@@ -1,0 +1,117 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #111827;
+  color: #f9fafb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.myapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #1f2937;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  max-width: 1000px;
+  width: 100%;
+  margin: 20px;
+}
+
+.myapp h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #f97316; 
+}
+
+.appvide {
+  flex: 1;
+  max-width: 60%;
+  border: 5px solid #374151;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.appvide video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  filter: contrast(1.1) brightness(0.9);
+  object-fit: cover;
+}
+
+.appcanvas {
+  flex: 1;
+  max-width: 35%;
+  margin-left: 20px; 
+  border: 2px dashed #4b5563;
+  border-radius: 15px;
+}
+
+.myapp-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px; 
+}
+
+@media screen and (max-width: 768px) {
+  .myapp {
+    padding: 20px;
+  }
+
+  .myapp h1 {
+    font-size: 2rem;
+  }
+
+  .myapp-content {
+    flex-direction: column;
+  }
+
+  .appvide,
+  .appcanvas {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .appcanvas {
+    margin-top: 20px; 
+  }
+}
+
+.results {
+  margin-top: 20px;
+  text-align: center;
+  color: #f9fafb;
+}
+
+.results h2 {
+  font-size: 1.8rem;
+  color: #f97316; 
+}
+
+.result-item {
+  margin-bottom: 10px;
+}
+
+.result-item p {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #d1d5db;
+}
+

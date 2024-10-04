@@ -1,0 +1,1 @@
+export const BACKEND_URL = "https://backend.ombaji124-d31.workers.dev";
