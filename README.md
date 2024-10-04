@@ -20,6 +20,12 @@
 - **Responsive Design**: Optimized for both desktop and mobile devices.
 - **Interactive UI**: Enjoy a visually appealing interface with smooth transitions and animations.
 
+
+![Screenshot_20241004_185244](https://github.com/user-attachments/assets/66f66660-63d4-41bc-b4be-0dd78aa4d27e)
+![Screenshot_20241004_185642](https://github.com/user-attachments/assets/8246e270-7a0c-4e3e-8eb2-c82bf4cba449)
+![Screenshot_20241004_185313](https://github.com/user-attachments/assets/9c88b09d-a37b-4135-8743-9fec42489e9e)
+
+
 ## Technologies Used
 
 - **Frontend**: React, Tailwind CSS, Axios, React Hook Form, Zod
